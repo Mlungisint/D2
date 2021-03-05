@@ -24,3 +24,8 @@ steps:
   inputs:
     Contents: '*'
     TargetFolder: 'C:\Users\mlungisi.ntshingila\Documents\Mlungisi\HTML Web Design'
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: 'C:\Users\mlungisi.ntshingila\Documents\Mlungisi\HTML Web Design'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
